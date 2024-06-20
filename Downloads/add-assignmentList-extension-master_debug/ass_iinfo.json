@@ -1,0 +1,298 @@
+{
+    "results": [
+      {
+        "itemSourceType": "blackboard.platform.gradebook2.GradableItem",
+        "itemSourceId": "_1155781_1",
+        "createdByUser": null,
+        "calendarId": "_204245_1",
+        "title": "課題1提出 (4/27 23:59)",
+        "endDate": "2024-04-27T15:00:59.999Z",
+        "modifiedDate": null,
+        "startDate": "2024-04-27T15:00:59.999Z",
+        "visibility": "VISIBLE",
+        "permissions": {
+          "delete": false,
+          "create": false,
+          "edit": false
+        },
+        "color": "#5f2782",
+        "disableResizing": true,
+        "userCreated": false,
+        "dynamicCalendarItemProps": {
+          "eventType": "テスト",
+          "categoryId": "_2603263_1",
+          "gradable": false,
+          "attemptable": true,
+          "isDateRangeLimited": false,
+          "handle": "resource/x-bb-assessment"
+        },
+        "calendarNameLocalizable": {
+          "rawValue": "2024-3301-331204-A : 22 計画情報数理 火2 / Mathematical Programming Tue2 : 情報科学研究科博士前期課程"
+        },
+        "location": null
+      },
+      {
+        "itemSourceType": "blackboard.platform.gradebook2.GradableItem",
+        "itemSourceId": "_1153664_1",
+        "createdByUser": null,
+        "calendarId": "_204198_1",
+        "title": "課題2024/04/22分",
+        "endDate": "2024-04-28T14:59:59.999Z",
+        "modifiedDate": null,
+        "startDate": "2024-04-28T14:59:59.999Z",
+        "visibility": "VISIBLE",
+        "permissions": {
+          "delete": false,
+          "create": false,
+          "edit": false
+        },
+        "color": "#800080",
+        "disableResizing": true,
+        "userCreated": false,
+        "dynamicCalendarItemProps": {
+          "eventType": "テスト",
+          "categoryId": "_2602652_1",
+          "gradable": false,
+          "attemptable": true,
+          "isDateRangeLimited": false,
+          "handle": "resource/x-bb-assessment"
+        },
+        "calendarNameLocalizable": {
+          "rawValue": "2024-3301-331005-A : 14 情報技術と倫理 月4 / Informartion Technology and Ethics Mon4 : 情報科学研究科博士前期課程"
+        },
+        "location": null
+      },
+      {
+        "itemSourceType": "blackboard.platform.gradebook2.GradableItem",
+        "itemSourceId": "_1155623_1",
+        "createdByUser": null,
+        "calendarId": "_204340_1",
+        "title": "Assignment 2",
+        "endDate": "2024-04-29T14:59:59.999Z",
+        "modifiedDate": null,
+        "startDate": "2024-04-29T14:59:59.999Z",
+        "visibility": "VISIBLE",
+        "permissions": {
+          "delete": false,
+          "create": false,
+          "edit": false
+        },
+        "color": "#52515d",
+        "disableResizing": true,
+        "userCreated": false,
+        "dynamicCalendarItemProps": {
+          "eventType": "テスト",
+          "categoryId": "_2604498_1",
+          "gradable": false,
+          "attemptable": true,
+          "isDateRangeLimited": false,
+          "handle": "resource/x-bb-assessment"
+        },
+        "calendarNameLocalizable": {
+          "rawValue": "2024-3301-331724-A : 25 バイオ情報工学入門 火5 / Introduction to Bioinformatic Engineering Tue5 : 情報科学研究科博士前期課程"
+        },
+        "location": null
+      },
+      {
+        "itemSourceType": "blackboard.platform.gradebook2.GradableItem",
+        "itemSourceId": "_1156096_1",
+        "createdByUser": null,
+        "calendarId": "_204327_1",
+        "title": "A2-Data_Warehousing",
+        "endDate": "2024-04-30T06:00:59.999Z",
+        "modifiedDate": null,
+        "startDate": "2024-04-30T06:00:59.999Z",
+        "visibility": "VISIBLE",
+        "permissions": {
+          "delete": false,
+          "create": false,
+          "edit": false
+        },
+        "color": "#777777",
+        "disableResizing": true,
+        "userCreated": false,
+        "dynamicCalendarItemProps": {
+          "eventType": "テスト",
+          "categoryId": "_2604329_1",
+          "gradable": false,
+          "attemptable": true,
+          "isDateRangeLimited": false,
+          "handle": "resource/x-bb-assessment"
+        },
+        "calendarNameLocalizable": {
+          "rawValue": "2024-3301-331636-A : 24 ビッグデータ解析 火4 / Big Data Analytics Tue4 : 情報科学研究科博士前期課程"
+        },
+        "location": null
+      },
+      {
+        "itemSourceType": "blackboard.platform.gradebook2.GradableItem",
+        "itemSourceId": "_1156512_1",
+        "createdByUser": null,
+        "calendarId": "_204196_1",
+        "title": "４月２５日レポート課題（5/1期限）",
+        "endDate": "2024-05-01T14:59:59.999Z",
+        "modifiedDate": null,
+        "startDate": "2024-05-01T14:59:59.999Z",
+        "visibility": "VISIBLE",
+        "permissions": {
+          "delete": false,
+          "create": false,
+          "edit": false
+        },
+        "color": "#844b15",
+        "disableResizing": true,
+        "userCreated": false,
+        "dynamicCalendarItemProps": {
+          "eventType": "テスト",
+          "categoryId": "_2602626_1",
+          "gradable": false,
+          "attemptable": true,
+          "isDateRangeLimited": false,
+          "handle": "resource/x-bb-assessment"
+        },
+        "calendarNameLocalizable": {
+          "rawValue": "2024-3301-331003-A : 99 情報科学特別講義I 木3木4 / Special Lectures on Information Science & Technology I Thu3Thu4 : 情報科学研究科博士前期課程"
+        },
+        "location": null
+      },
+      {
+        "itemSourceType": "blackboard.platform.gradebook2.GradableItem",
+        "itemSourceId": "_1154482_1",
+        "createdByUser": null,
+        "calendarId": "_204275_1",
+        "title": "Assignment (April 24)",
+        "endDate": "2024-05-08T14:59:59.999Z",
+        "modifiedDate": null,
+        "startDate": "2024-05-08T14:59:59.999Z",
+        "visibility": "VISIBLE",
+        "permissions": {
+          "delete": false,
+          "create": false,
+          "edit": false
+        },
+        "color": "#d53383",
+        "disableResizing": true,
+        "userCreated": false,
+        "dynamicCalendarItemProps": {
+          "eventType": "テスト",
+          "categoryId": "_2603653_1",
+          "gradable": false,
+          "attemptable": true,
+          "isDateRangeLimited": false,
+          "handle": "resource/x-bb-assessment"
+        },
+        "calendarNameLocalizable": {
+          "rawValue": "2024-3301-331325-A : 34 コンピュータサイエンス基礎論 水4 / Fundamentals of Computer Science Wed4 : 情報科学研究科博士前期課程"
+        },
+        "location": null
+      },
+      {
+        "itemSourceType": "blackboard.platform.gradebook2.GradableItem",
+        "itemSourceId": "_1150959_1",
+        "createdByUser": null,
+        "calendarId": "_204303_1",
+        "title": "5/8 演習取り組み報告（グループ）",
+        "endDate": "2024-05-08T14:59:59.999Z",
+        "modifiedDate": null,
+        "startDate": "2024-05-08T14:59:59.999Z",
+        "visibility": "PARTIALLY_VISIBLE",
+        "permissions": {
+          "delete": false,
+          "create": false,
+          "edit": false
+        },
+        "color": "#b06216",
+        "disableResizing": true,
+        "userCreated": false,
+        "dynamicCalendarItemProps": {
+          "eventType": "アンケート",
+          "categoryId": "_2604018_1",
+          "gradable": false,
+          "attemptable": true,
+          "isDateRangeLimited": false,
+          "handle": "resource/x-bb-assessment-survey"
+        },
+        "calendarNameLocalizable": {
+          "rawValue": "2024-3301-331514-A : 99 情報ネットワーク学演習I 水5水6 / Exercises on Information Networking I Wed5Wed6 : 情報科学研究科博士前期課程"
+        },
+        "location": null
+      },
+      {
+        "itemSourceType": "blackboard.platform.gradebook2.GradableItem",
+        "itemSourceId": "_1156525_1",
+        "createdByUser": null,
+        "calendarId": "_202999_1",
+        "title": "レポート課題1（金澤担当）",
+        "endDate": "2024-05-09T14:59:59.999Z",
+        "modifiedDate": null,
+        "startDate": "2024-05-09T14:59:59.999Z",
+        "visibility": "VISIBLE",
+        "permissions": {
+          "delete": false,
+          "create": false,
+          "edit": false
+        },
+        "color": "#de1934",
+        "disableResizing": true,
+        "userCreated": false,
+        "dynamicCalendarItemProps": {
+          "eventType": "テスト",
+          "categoryId": "_2587075_1",
+          "gradable": false,
+          "attemptable": true,
+          "isDateRangeLimited": false,
+          "handle": "resource/x-bb-assessment"
+        },
+        "calendarNameLocalizable": {
+          "rawValue": "2024-2901-290751-A : 51 システム数理特別講義Ⅰ 金1 / Special lecture on theoretical systems science I Fri1 : 基礎工学研究科博士前期課程"
+        },
+        "location": null
+      },
+      {
+        "itemSourceType": "blackboard.platform.gradebook2.GradableItem",
+        "itemSourceId": "_1156781_1",
+        "createdByUser": null,
+        "calendarId": "_204275_1",
+        "title": "Assignment (May 8)",
+        "endDate": "2024-05-14T14:59:59.999Z",
+        "modifiedDate": null,
+        "startDate": "2024-05-14T14:59:59.999Z",
+        "visibility": "PARTIALLY_VISIBLE",
+        "permissions": {
+          "delete": false,
+          "create": false,
+          "edit": false
+        },
+        "color": "#d53383",
+        "disableResizing": true,
+        "userCreated": false,
+        "dynamicCalendarItemProps": {
+          "eventType": "テスト",
+          "categoryId": "_2603653_1",
+          "gradable": false,
+          "attemptable": true,
+          "isDateRangeLimited": false,
+          "handle": "resource/x-bb-assessment"
+        },
+        "calendarNameLocalizable": {
+          "rawValue": "2024-3301-331325-A : 34 コンピュータサイエンス基礎論 水4 / Fundamentals of Computer Science Wed4 : 情報科学研究科博士前期課程"
+        },
+        "location": null
+      }
+    ],
+    "paging": {
+      "limit": 20,
+      "count": 9,
+      "previousPage": "",
+      "nextPage": "",
+      "offset": 0
+    },
+    "permissions": {
+      "createCourseEvent": null,
+      "modifyInstitutionEvent": null,
+      "deleteInstitutionEvent": null,
+      "modifyCourseEvent": null,
+      "deleteCourseEvent": null,
+      "createInstitutionEvent": false
+    }
+  }
