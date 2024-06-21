@@ -28,8 +28,8 @@ function main(e) {
       makeAssignmentList(body[0]);
       makeClassList(body[0]);
       clearInterval(jsInitCheckTimer);
-      addAssignmentListButton();
-    }
+      }
+    addAssignmentListButton();
   }
 }
 
@@ -212,23 +212,64 @@ function addAssignmentListButton() {
   if (baseToolsList) {
     console.log('base_tools.off_canvas_list found');
     const newButton = document.createElement('bb-base-navigation-button');
-    baseToolsList.prepend(newButton);
-    newButton.innerHTML = `
-      <div ng-switch="$ctrl.link.type">
-        <li ng-switch-when="static" role="presentation" class="base-navigation-button" ui-sref-active="active" ng-attr-aria-hidden="{{ ($ctrl.previewMode ? 'true' : 'false') }}" aria-hidden="false">
-          <a class="base-navigation-button-content themed-background-primary-alt-fill-only theme-border-left-active" ng-click="showAssignmentList()" aria-current="false" tabindex="">
-            <bb-svg-icon icon="assignment" size="medium" aria-hidden="true">
-              <!-- SVGアイコンの実装 -->
-            </bb-svg-icon>
-            <span class="link-text" bb-translate="">課題リスト</span>
-          </a>
-        </li>
-      </div>
-    `;
-    console.log('New button created');
-    baseToolsList.appendChild(newButton);
-    console.log('New button appended to base_tools.off_canvas_list');
-  } else {
-    console.log('base_tools.off_canvas_list not found');
+    const iconUrl = chrome.runtime.getURL("icon.webp");
+    newButton.innerHTML = newButton.innerHTML = `
+    <div ng-switch="$ctrl.link.type">
+      <!-- Static -->
+      <!---->
+      <li ng-switch-when="static" role="presentation" class="base-navigation-button" ui-sref-active="active" ng-attr-aria-hidden="{{ ($ctrl.previewMode ? 'true' : 'false') }}" aria-hidden="false">
+        <a class="base-navigation-button-content themed-background-primary-alt-fill-only theme-border-left-active" ng-click="showAssignmentList()" aria-current="false" tabindex="">
+          <ng-switch on="$ctrl.link.id">
+            <div ng-switch-default="">
+                <span class="icon-wrapper">
+                  <img src="${iconUrl}" alt="課題リスト" style="position:absolute; bottom:0.7rem; left: 0.75rem;\
+                  width: 35px; height: 35px; filter:invert(1); margin-right:0.3125rem; text-align: center; vertical-align: middle;">
+                </span>
+              <span class="link-text" bb-translate="">課題リスト</span>
+            </div>
+          </ng-switch>
+        </a>
+      </li>
+      <!---->
+      <!-- Integration -->
+      <!---->
+    </div>
+  `;
+  
+
+
+
+    newButton.addEventListener('click', (event) => {
+      event.preventDefault();
+      showAssignmentList();
+    });
+
+    baseToolsList.insertBefore(newButton, baseToolsList.firstChild);
   }
+}
+
+
+function showAssignmentList() {
+  const assignmentListPopup = document.createElement('div');
+  assignmentListPopup.style.position = 'fixed';
+  assignmentListPopup.style.top = '50%';
+  assignmentListPopup.style.left = '50%';
+  assignmentListPopup.style.transform = 'translate(-50%, -50%)';
+  assignmentListPopup.style.backgroundColor = 'white';
+  assignmentListPopup.style.padding = '20px';
+  assignmentListPopup.style.zIndex = '9999';
+
+  const closeButton = document.createElement('button');
+  closeButton.textContent = '閉じる';
+  closeButton.style.marginBottom = '10px';
+  closeButton.addEventListener('click', () => {
+    document.body.removeChild(assignmentListPopup);
+  });
+
+  assignmentListPopup.appendChild(closeButton);
+
+  const assignmentTable = document.createElement('div');
+  assignmentListPopup.appendChild(assignmentTable);
+
+  document.body.appendChild(assignmentListPopup);
 }

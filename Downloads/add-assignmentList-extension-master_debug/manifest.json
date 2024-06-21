@@ -13,7 +13,7 @@
   ],
   "web_accessible_resources": [
     {
-      "resources": ["constants.js", "util.js", "content.js"],
+      "resources": ["constants.js", "util.js", "content.js", "icon.webp"],
       "matches": ["<all_urls>"]
     }
   ]
