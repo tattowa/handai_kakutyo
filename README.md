@@ -7,7 +7,7 @@ https://github.com/TatsukiNishimura/add-assignmentList-extension
 ![Image](usecase.png)
 - 左のメニューバーに「課題リスト」アイコンを追加
 - アイコンからポップアップで課題状況を確認できるように
-- 新規課題に赤色バッジがつく
+- 前回セッションを参照し、新規課題に赤色バッジがつく
 - 着手中/提出済み課題はリンクを押すと、作成した答案が確認できる
 
 
