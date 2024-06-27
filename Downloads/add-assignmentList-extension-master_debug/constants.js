@@ -1,8 +1,8 @@
 export const url = 'https://www.cle.osaka-u.ac.jp/learn/api/v1/calendars/dueDateCalendarItems';
+export const assignmentIdBaseLink = 'https://www.cle.osaka-u.ac.jp/learn/api/public/v2/courses/';
 export const contentlinkBase = 'https://www.cle.osaka-u.ac.jp/ultra/courses/';
 export const classListApiUrl = 'https://www.cle.osaka-u.ac.jp//learn/api/public/v1/calendars/';
-// 課題リンク用 合ってるかわからない
-export const magicUrl = '/outline/assessment/';
+
 
 export const dateCompareText = {
   GREATER_OR_EQUAL: 'greaterOrEqual',
@@ -42,6 +42,22 @@ export function getClassUrl(id) {
   return contentlinkBase + id + '/outline';
 }
 
-export function getAssignmentUrl(courseId, ItemSourceType, ItemSourceId) {
-  return contentlinkBase + courseId + magicUrl + ItemSourceId + '/overview?courseid=' + courseId;
+export function getAssignmentUrl(courseId, columnId) {
+  return contentlinkBase + courseId + '/outline/assessment/' + columnId + '/overview?courseId=' + courseId;
+}
+
+export function getProgresstUrl(courseId, columnId, progressId) {
+  return contentlinkBase + courseId + '/outline/assessment/' + columnId + '/overview/attempt/' + progressId + '?courseId=' + courseId;
+}
+
+export function getReviewtUrl(courseId, columnId, itemSourceId,  progressId) {
+  return contentlinkBase + courseId + '/outline/assessment/' + columnId + '/overview/attempt/' + progressId + '/review/inline-feedback?'
+  + 'attemptId=' + progressId + '&mode=inline&columnId=' + itemSourceId + '&contentId='+ columnId + '&courseId=' + courseId
+}
+export function getColumnRequestUrl(courseId, itemSourceId){
+  return assignmentIdBaseLink + courseId + '/gradebook/columns/' + itemSourceId
+}
+
+export function getAssignmentStatusUrl(courseId, itemSourceId){
+  return assignmentIdBaseLink + courseId + '/gradebook/columns/' + itemSourceId + '/attempts?'
 }
