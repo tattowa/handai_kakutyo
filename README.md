@@ -3,7 +3,7 @@ https://github.com/TatsukiNishimura/add-assignmentList-extension
 
 
 # 追加機能
-![Image 1](image.png)
+![Image](usecase.png)
 - 左のメニューバーにアイコンを追加
 - アイコンからポップアップで課題状況を確認できるように
 - 新規課題に赤色バッジがつく
