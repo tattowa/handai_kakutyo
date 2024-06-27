@@ -13,5 +13,7 @@ https://github.com/TatsukiNishimura/add-assignmentList-extension
 
 # 使い方
 - 「Download Zip」または git clone でローカルにコピー
-- [chrome://extensions/](chrome://extensions/) にアクセス -> デベロッパーモードをオン -> \
+- [chrome://extensions/][] にアクセス -> デベロッパーモードをオン -> \
 パッケージ化されていない拡張機能を読み込む -> 「add-assignmentList-extension-master_debug」を選択
+
+[chrome://extensions/]: chrome://extensions/    "chrome://extensions/"
